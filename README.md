@@ -1,5 +1,5 @@
 # FF_Requests
-Addon for Firefox to log network connections
+Addon for Firefox to log network requests
 
 # Installation
 Open about:debugging page, press "Load temporary Add-on" button and choose extension's file
