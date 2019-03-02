@@ -1,0 +1,22 @@
+{
+  "description": "Logging webRequests",
+  "manifest_version": 2,
+  "name": "VMartyanov requests logger",
+  "version": "1.0",
+  
+  "applications": {
+    "gecko": {
+      "id": "RequestsLogger@VMartyanov.org",
+      "strict_min_version": "50.0"
+    }
+  },
+
+  "permissions": [
+    "webRequest",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
